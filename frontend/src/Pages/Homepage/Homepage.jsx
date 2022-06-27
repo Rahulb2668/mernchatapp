@@ -25,7 +25,7 @@ const Homepage = () => {
         borderRadius="lg"
         borderWidth="1px"
       >
-        <Text fontSize="4xl" fontFamily="Work sans" color="black">
+        <Text fontSize={{ base: "2xl", md: "4xl" }} fontFamily="Work sans" color="black">
           Mern Stack Chat Project
         </Text>
       </Box>
